@@ -39,5 +39,7 @@ jobs:
         shell: python
         run: |
           from extension_catalog_model.model import *
-          Catalog.parse_file("catalog.json")
+          with open('catalog.json') as f:
+              jsontext = f.read()
+              Catalog.model_validate_json(jsontext)
             
