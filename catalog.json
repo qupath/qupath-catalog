@@ -14,6 +14,15 @@
         "homepage": "https://github.com/qupath/qupath-extension-omero",
         "releases": [
             {
+                "name": "v0.1.0-rc12",
+                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0-rc12/qupath-extension-omero-0.1.0-rc12.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0-rc12/qupath-extension-omero-0.1.0-rc12-javadoc.jar"],
+                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.14/OMERO.java-5.6.14-ice36.zip"],
+                "version_range": {
+                    "min": "v0.6.0-rc3"
+                }
+            },
+            {
                 "name": "v0.1.0-rc11",
                 "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0-rc11/qupath-extension-omero-0.1.0-rc11.jar",
                 "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0-rc11/qupath-extension-omero-0.1.0-rc11-javadoc.jar"],
