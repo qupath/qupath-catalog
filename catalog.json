@@ -174,45 +174,26 @@
         "homepage": "https://github.com/qupath/qupath-extension-stardist",
         "releases": [
             {
+                "name": "v0.6.0-rc1",
+                "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.6.0-rc1/qupath-extension-stardist-0.6.0-rc1.jar",
+                "version_range": {
+                    "min": "v0.6.0-rc4"
+                }
+            },
+            {
                 "name": "v0.5.0",
                 "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.5.0/qupath-extension-stardist-0.5.0.jar",
                 "version_range": {
-                    "min": "v0.5.0"
+                    "min": "v0.5.0",
+                    "max": "v0.5.1"
                 }
             },
             {
                 "name": "v0.4.0",
                 "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.4.0/qupath-extension-stardist-0.4.0.jar",
                 "version_range": {
-                    "min": "v0.4.0"
-                }
-            },
-            {
-                "name": "v0.3.2",
-                "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.3.2/qupath-extension-stardist-0.3.2.jar",
-                "version_range": {
-                    "min": "v0.3.0"
-                }
-            },
-            {
-                "name": "v0.3.1",
-                "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.3.1/qupath-extension-stardist-0.3.1.jar",
-                "version_range": {
-                    "min": "v0.3.0"
-                }
-            },
-            {
-                "name": "v0.3.0",
-                "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.3.0/qupath-extension-stardist-0.3.0.jar",
-                "version_range": {
-                    "min": "v0.3.0"
-                }
-            },
-            {
-                "name": "v0.3.0-rc2",
-                "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.3.0-rc2/qupath-extension-stardist-0.3.0-rc2.jar",
-                "version_range": {
-                    "min": "v0.3.0-rc2"
+                    "min": "v0.4.0",
+                    "max": "v0.4.3"
                 }
             }
         ]
@@ -223,33 +204,20 @@
         "homepage": "https://github.com/qupath/qupath-extension-wsinfer",
         "releases": [
             {
+                "name": "v0.4.0-rc1",
+                "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.4.0-rc1/qupath-extension-wsinfer-0.4.0-rc1.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.4.0-rc1/qupath-extension-wsinfer-0.4.0-rc1-javadoc.jar"],
+                "version_range": {
+                    "min": "v0.6.0-rc4"
+                }
+            },
+            {
                 "name": "v0.3.0",
                 "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.3.0/qupath-extension-wsinfer-0.3.0.jar",
                 "javadoc_urls": ["https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.3.0/qupath-extension-wsinfer-0.3.0-javadoc.jar"],
                 "version_range": {
-                    "min": "v0.5.0"
-                }
-            },
-            {
-                "name": "v0.2.1",
-                "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.2.1/qupath-extension-wsinfer-0.2.1.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.2.1/qupath-extension-wsinfer-0.2.1-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.4.0"
-                }
-            },
-            {
-                "name": "v0.2.0",
-                "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.2.0/qupath-extension-wsinfer-0.2.0.jar",
-                "version_range": {
-                    "min": "v0.4.0"
-                }
-            },
-            {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.1.0/qupath-extension-wsinfer-0.1.0.jar",
-                "version_range": {
-                    "min": "v0.4.0"
+                    "min": "v0.5.0",
+                    "max": "v0.5.1"
                 }
             }
         ]
@@ -258,21 +226,7 @@
         "description": "QuPath extension using JPen for graphics tablet input",
         "author": "QuPath",
         "homepage": "https://github.com/qupath/qupath-extension-jpen",
-        "releases": [
-            {
-                "name": "v0.3.0",
-                "main_url": "https://github.com/qupath/qupath-extension-jpen/releases/download/v0.3.0/qupath-extension-jpen-0.3.0-all.jar",
-                "version_range": {
-                    "min": "v0.3.0"
-                }
-            },{
-                "name": "v0.3.0-rc2",
-                "main_url": "https://github.com/qupath/qupath-extension-jpen/releases/download/v0.3.0-rc2/qupath-extension-jpen-0.3.0-rc2-all.jar",
-                "version_range": {
-                    "min": "v0.3.0"
-                }
-            }
-        ]
+        "releases": []
     },{
         "name": "QuPath Align extension",
         "description": "QuPath extension to interactively align images",
@@ -280,24 +234,19 @@
         "homepage": "https://github.com/qupath/qupath-extension-align",
         "releases": [
             {
+                "name": "v0.5.0-rc1",
+                "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.5.0-rc1/qupath-extension-align-0.5.0-rc1.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-align/releases/download/v0.5.0-rc1/qupath-extension-align-0.5.0-rc1-javadoc.jar"],
+                "version_range": {
+                    "min": "v0.6.0-rc4"
+                }
+            }
+            {
                 "name": "v0.4.0",
                 "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.4.0/qupath-extension-align-0.4.0.jar",
                 "version_range": {
-                    "min": "v0.5.0"
-                }
-            },{
-                "name": "v0.3.0",
-                "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.3.0/qupath-extension-align-0.3.0.jar",
-                "version_range": {
-                    "min": "v0.3.0",
-                    "max": "v0.4.3"
-                }
-            },{
-                "name": "v0.3.0-rc2",
-                "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.3.0-rc2/qupath-extension-align-0.3.0-rc2.jar",
-                "version_range": {
-                    "min": "v0.3.0-rc2",
-                    "max": "v0.3.0-rc2"
+                    "min": "v0.5.0",
+                    "max": "v0.5.1"
                 }
             }
         ]
@@ -308,10 +257,18 @@
         "homepage": "https://github.com/qupath/qupath-extension-bioimageio",
         "releases": [
             {
+                "name": "v0.2.0",
+                "main_url": "https://github.com/qupath/qupath-extension-bioimageio/releases/download/v0.2.0-rc1/qupath-extension-bioimageio-0.2.0-rc1.jar",
+                "version_range": {
+                    "min": "v0.6.0-rc4"
+                }
+            },
+            {
                 "name": "v0.1.0",
                 "main_url": "https://github.com/qupath/qupath-extension-bioimageio/releases/download/v0.1.0/qupath-extension-bioimageio-0.1.0.jar",
                 "version_range": {
-                    "min": "v0.4.0"
+                    "min": "v0.4.0",
+                    "max": "v0.5.1"
                 }
             }
         ]
