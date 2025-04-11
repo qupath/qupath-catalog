@@ -209,34 +209,6 @@
             }
         ]
     },{
-        "name": "QuPath Deep Java Library extension",
-        "description": "A QuPath extension for working with Deep Java Library (https://djl.ai)",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-djl",
-        "releases": [
-            {
-                "name": "v0.3.0",
-                "main_url": "https://github.com/qupath/qupath-extension-djl/releases/download/v0.3.0/qupath-extension-djl-0.3.0.jar",
-                "version_range": {
-                    "min": "v0.5.0"
-                }
-            },
-            {
-                "name": "v0.2.0",
-                "main_url": "https://github.com/qupath/qupath-extension-djl/releases/download/v0.2.0/qupath-extension-djl-0.2.0.jar",
-                "version_range": {
-                    "min": "v0.4.3"
-                }
-            },
-            {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-djl/releases/download/v0.1.0/qupath-extension-djl-0.1.0.jar",
-                "version_range": {
-                    "min": "v0.4.0"
-                }
-            }
-        ]
-    },{
         "name": "QuPath WSInfer extension",
         "description": "QuPath extension to work with WSInfer - https://wsinfer.readthedocs.io/",
         "author": "QuPath",
