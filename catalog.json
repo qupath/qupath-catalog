@@ -240,7 +240,7 @@
                 "version_range": {
                     "min": "v0.6.0-rc4"
                 }
-            }
+            },
             {
                 "name": "v0.4.0",
                 "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.4.0/qupath-extension-align-0.4.0.jar",
