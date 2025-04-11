@@ -137,7 +137,17 @@
         "description": "A QuPath extension to help with learning the software",
         "author": "QuPath",
         "homepage": "https://github.com/qupath/qupath-extension-training",
-        "releases": []
+        "releases": [
+            {
+                "name": "v0.1.0-rc1",
+                "main_url": "https://github.com/qupath/qupath-extension-training/releases/download/v0.1.0-rc1/qupath-extension-training-0.1.0-rc1.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-training/releases/download/v0.1.0-rc1/qupath-extension-training-0.1.0-rc1-javadoc.jar"],
+                "optional_dependency_urls": [],
+                "version_range": {
+                    "min": "v0.6.0-rc3"
+                }
+            }
+        ]
     },{
         "name": "QuPath StarDist extension",
         "description": "QuPath extension to run StarDist nucleus detection",
