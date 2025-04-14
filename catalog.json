@@ -6,6 +6,7 @@
         "description": "Extension to run InstanSeg inference through QuPath",
         "author": "QuPath",
         "homepage": "https://github.com/qupath/qupath-extension-instanseg",
+        "starred": true,
         "releases": [
             {
                 "name": "v0.1.0-rc1",
@@ -21,6 +22,7 @@
         "description": "QuPath extension to work with images through OMERO's APIs",
         "author": "QuPath",
         "homepage": "https://github.com/qupath/qupath-extension-omero",
+        "starred": true,
         "releases": [
             {
                 "name": "v0.1.0-rc13",
@@ -156,6 +158,7 @@
         "description": "A QuPath extension to help with learning the software",
         "author": "QuPath",
         "homepage": "https://github.com/qupath/qupath-extension-training",
+        "starred": true,
         "releases": [
             {
                 "name": "v0.1.0-rc1",
