@@ -147,22 +147,6 @@
             }
         ]
     },{
-        "name": "QuPath Py4J extension",
-        "description": "A QuPath extension for linking up to Python via Py4J (https://www.py4j.org)",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-py4j",
-        "releases": [
-            {
-                "name": "v0.1.0-rc1",
-                "main_url": "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0-rc1/qupath-extension-py4j-0.1.0-rc1.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0-rc1/qupath-extension-py4j-0.1.0-rc1-javadoc.jar"],
-                "optional_dependency_urls": [],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            }
-        ]
-    },{
         "name": "QuPath Training extension",
         "description": "A QuPath extension to help with learning the software",
         "author": "QuPath",
@@ -176,6 +160,22 @@
                 "optional_dependency_urls": [],
                 "version_range": {
                     "min": "v0.6.0-rc3"
+                }
+            }
+        ]
+    },{
+        "name": "QuPath Py4J extension",
+        "description": "A QuPath extension for linking up to Python via Py4J (https://www.py4j.org)",
+        "author": "QuPath",
+        "homepage": "https://github.com/qupath/qupath-extension-py4j",
+        "releases": [
+            {
+                "name": "v0.1.0-rc1",
+                "main_url": "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0-rc1/qupath-extension-py4j-0.1.0-rc1.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0-rc1/qupath-extension-py4j-0.1.0-rc1-javadoc.jar"],
+                "optional_dependency_urls": [],
+                "version_range": {
+                    "min": "v0.6.0-rc4"
                 }
             }
         ]
