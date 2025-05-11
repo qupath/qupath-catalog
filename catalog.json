@@ -160,7 +160,7 @@
                 "optional_dependency_urls": [],
                 "version_range": {
                     "min": "v0.6.0-rc3",
-                    "min": "v0.6.0-rc4"
+                    "max": "v0.6.0-rc4"
                 }
             }
         ]
