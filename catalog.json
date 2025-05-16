@@ -181,6 +181,22 @@
             }
         ]
     },{
+        "name": "QuPath snapshots extension",
+        "description": "A QuPath extension for generating snapshots & screenshots more easily.",
+        "author": "QuPath",
+        "homepage": "https://github.com/qupath/qupath-extension-snapshots",
+        "releases": [
+            {
+                "name": "v0.1.0-rc1",
+                "main_url": "https://github.com/qupath/qupath-extension-snapshots/releases/download/0.1.0-rc1/qupath-extension-snapshots-0.1.0-rc1.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-snapshots/releases/download/0.1.0-rc1/qupath-extension-snapshots-0.1.0-rc1-javadoc.jar"],
+                "optional_dependency_urls": [],
+                "version_range": {
+                    "min": "v0.6.0-rc5"
+                }
+            }
+        ]
+    },{
         "name": "QuPath StarDist extension",
         "description": "QuPath extension to run StarDist nucleus detection",
         "author": "QuPath",
