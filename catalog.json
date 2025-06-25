@@ -25,6 +25,15 @@
         "starred": true,
         "releases": [
             {
+                "name": "v0.1.0",
+                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0/qupath-extension-omero-0.1.0.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0/qupath-extension-omero-0.1.0-javadoc.jar"],
+                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.15/OMERO.java-5.6.15-ice36.zip"],
+                "version_range": {
+                    "min": "v0.6.0-rc3"
+                }
+            },
+            {
                 "name": "v0.1.0-rc14",
                 "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0-rc14/qupath-extension-omero-0.1.0-rc14.jar",
                 "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0-rc14/qupath-extension-omero-0.1.0-rc14-javadoc.jar"],
@@ -280,6 +289,21 @@
                 "version_range": {
                     "min": "v0.4.0",
                     "max": "v0.5.1"
+                }
+            }
+        ]
+    },{
+        "name": "QuPath stitching extension",
+        "description": "A QuPath extension to combine TIFF images",
+        "author": "QuPath",
+        "homepage": "https://github.com/qupath/qupath-extension-stitching",
+        "releases": [
+            {
+                "name": "v0.1.0",
+                "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0-javadoc.jar"],
+                "version_range": {
+                    "min": "v0.6.0"
                 }
             }
         ]
