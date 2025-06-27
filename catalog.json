@@ -125,7 +125,16 @@
         "description": "QuPath extension using JPen for graphics tablet input",
         "author": "QuPath",
         "homepage": "https://github.com/qupath/qupath-extension-jpen",
-        "releases": []
+        "releases": [
+            {
+                "name": "v0.4.0",
+                "main_url": "https://github.com/qupath/qupath-extension-jpen/releases/download/v0.1.0/qupath-extension-jpen-0.4.0-all.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-jpen/releases/download/v0.1.0/qupath-extension-jpen-0.4.0-javadoc.jar"],
+                "version_range": {
+                    "min": "v0.6.0-rc4"
+                }
+            }
+        ]
     },{
         "name": "QuPath Align extension",
         "description": "QuPath extension to interactively align images",
