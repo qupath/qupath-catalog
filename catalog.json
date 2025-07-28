@@ -66,6 +66,15 @@
         "homepage": "https://github.com/qupath/qupath-extension-py4j",
         "releases": [
             {
+                "name": "v0.1.1",
+                "main_url": "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.1/qupath-extension-py4j-0.1.1-all.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.1/qupath-extension-py4j-0.1.1-javadoc.jar"],
+                "optional_dependency_urls": [],
+                "version_range": {
+                    "min": "v0.6.0-rc4"
+                }
+            },
+            {
                 "name": "v0.1.0",
                 "main_url": "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0/qupath-extension-py4j-0.1.0.jar",
                 "javadoc_urls": ["https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0/qupath-extension-py4j-0.1.0-javadoc.jar"],
