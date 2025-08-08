@@ -85,7 +85,7 @@
             }
         ]
     },{
-        "name": "QuPath snapshots extension",
+        "name": "QuPath Snapshots extension",
         "description": "A QuPath extension for generating snapshots & screenshots more easily.",
         "author": "QuPath",
         "homepage": "https://github.com/qupath/qupath-extension-snapshots",
@@ -215,7 +215,7 @@
             }
         ]
     },{
-        "name": "QuPath stitching extension",
+        "name": "QuPath Stitching extension",
         "description": "A QuPath extension to combine TIFF images",
         "author": "QuPath",
         "homepage": "https://github.com/qupath/qupath-extension-stitching",
