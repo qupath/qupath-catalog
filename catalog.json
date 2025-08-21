@@ -221,17 +221,17 @@
         "homepage": "https://github.com/qupath/qupath-extension-stitching",
         "releases": [
             {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0-javadoc.jar"],
+                "name": "v0.2.0",
+                "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.0/qupath-extension-stitching-0.2.0.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.0/qupath-extension-stitching-0.2.0-javadoc.jar"],
                 "version_range": {
                     "min": "v0.6.0"
                 }
             },
             {
-                "name": "v0.2.0",
-                "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.0/qupath-extension-stitching-0.2.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.0/qupath-extension-stitching-0.2.0-javadoc.jar"],
+                "name": "v0.1.0",
+                "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0-javadoc.jar"],
                 "version_range": {
                     "min": "v0.6.0"
                 }
