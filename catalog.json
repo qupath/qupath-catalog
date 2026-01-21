@@ -9,6 +9,14 @@
         "starred": true,
         "releases": [
             {
+                "name": "v0.1.6",
+                "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.6/qupath-extension-instanseg-0.1.6.jar",
+                "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.6/qupath-extension-instanseg-0.1.6-javadoc.jar"],
+                "version_range": {
+                    "min": "v0.6.0"
+                }
+            },
+            {
                 "name": "v0.1.5",
                 "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.5/qupath-extension-instanseg-0.1.5.jar",
                 "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.5/qupath-extension-instanseg-0.1.5-javadoc.jar"],
