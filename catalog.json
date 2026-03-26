@@ -1,328 +1,416 @@
 {
-    "name": "QuPath catalog",
-    "description": "Extensions maintained by the QuPath team",
-    "extensions": [{
-        "name": "QuPath InstanSeg extension",
-        "description": "Extension to run InstanSeg inference through QuPath",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-instanseg",
-        "starred": true,
-        "releases": [
-            {
-                "name": "v0.1.6",
-                "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.6/qupath-extension-instanseg-0.1.6.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.6/qupath-extension-instanseg-0.1.6-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.1.5",
-                "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.5/qupath-extension-instanseg-0.1.5.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.5/qupath-extension-instanseg-0.1.5-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.1.4",
-                "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.4/qupath-extension-instanseg-0.1.4.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.4/qupath-extension-instanseg-0.1.4-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.1.3",
-                "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.3/qupath-extension-instanseg-0.1.3.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.3/qupath-extension-instanseg-0.1.3-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.1.2",
-                "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.2/qupath-extension-instanseg-0.1.2.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.2/qupath-extension-instanseg-0.1.2-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            },
-            {
-                "name": "v0.1.1",
-                "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.1/qupath-extension-instanseg-0.1.1.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.1/qupath-extension-instanseg-0.1.1-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            },
-            {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.0/qupath-extension-instanseg-0.1.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.0/qupath-extension-instanseg-0.1.0-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath OMERO extension",
-        "description": "QuPath extension to work with images through OMERO's APIs",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-omero",
-        "starred": true,
-        "releases": [
-            {
-                "name": "v0.2.3",
-                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.3/qupath-extension-omero-0.2.3.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.3/qupath-extension-omero-0.2.3-javadoc.jar"],
-                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.17/OMERO.java-5.6.17-ice36.zip"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.2.2",
-                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.2/qupath-extension-omero-0.2.2.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.2/qupath-extension-omero-0.2.2-javadoc.jar"],
-                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.2.1",
-                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.1/qupath-extension-omero-0.2.1.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.1/qupath-extension-omero-0.2.1-javadoc.jar"],
-                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.2.0",
-                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.0/qupath-extension-omero-0.2.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.0/qupath-extension-omero-0.2.0-javadoc.jar"],
-                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.1.2",
-                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.2/qupath-extension-omero-0.1.2.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.2/qupath-extension-omero-0.1.2-javadoc.jar"],
-                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.1.1",
-                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.1/qupath-extension-omero-0.1.1.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.1/qupath-extension-omero-0.1.1-javadoc.jar"],
-                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"],
-                "version_range": {
-                    "min": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0/qupath-extension-omero-0.1.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0/qupath-extension-omero-0.1.0-javadoc.jar"],
-                "optional_dependency_urls": ["https://github.com/ome/openmicroscopy/releases/download/v5.6.15/OMERO.java-5.6.15-ice36.zip"],
-                "version_range": {
-                    "min": "v0.6.0-rc3"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath Py4J extension",
-        "description": "A QuPath extension for linking up to Python via Py4J (https://www.py4j.org)",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-py4j",
-        "releases": [
-            {
-                "name": "v0.1.1",
-                "main_url": "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.1/qupath-extension-py4j-0.1.1-all.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.1/qupath-extension-py4j-0.1.1-javadoc.jar"],
-                "optional_dependency_urls": [],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            },
-            {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0/qupath-extension-py4j-0.1.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0/qupath-extension-py4j-0.1.0-javadoc.jar"],
-                "optional_dependency_urls": [],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath Snapshots extension",
-        "description": "A QuPath extension for generating snapshots & screenshots more easily.",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-snapshots",
-        "releases": [
-            {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-snapshots/releases/download/v0.1.0/qupath-extension-snapshots-0.1.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-snapshots/releases/download/v0.1.0/qupath-extension-snapshots-0.1.0-javadoc.jar"],
-                "optional_dependency_urls": [],
-                "version_range": {
-                    "min": "v0.6.0-rc5"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath StarDist extension",
-        "description": "QuPath extension to run StarDist nucleus detection",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-stardist",
-        "releases": [
-            {
-                "name": "v0.6.0",
-                "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.6.0/qupath-extension-stardist-0.6.0.jar",
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            },
-            {
-                "name": "v0.5.0",
-                "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.5.0/qupath-extension-stardist-0.5.0.jar",
-                "version_range": {
-                    "min": "v0.5.0",
-                    "max": "v0.5.1"
-                }
-            },
-            {
-                "name": "v0.4.0",
-                "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.4.0/qupath-extension-stardist-0.4.0.jar",
-                "version_range": {
-                    "min": "v0.4.0",
-                    "max": "v0.4.3"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath WSInfer extension",
-        "description": "QuPath extension to work with WSInfer - https://wsinfer.readthedocs.io/",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-wsinfer",
-        "releases": [
-            {
-                "name": "v0.4.0",
-                "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.4.0/qupath-extension-wsinfer-0.4.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.4.0/qupath-extension-wsinfer-0.4.0-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            },
-            {
-                "name": "v0.3.0",
-                "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.3.0/qupath-extension-wsinfer-0.3.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.3.0/qupath-extension-wsinfer-0.3.0-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.5.0",
-                    "max": "v0.5.1"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath JPen extension",
-        "description": "QuPath extension using JPen for graphics tablet input",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-jpen",
-        "releases": [
-            {
-                "name": "v0.4.0",
-                "main_url": "https://github.com/qupath/qupath-extension-jpen/releases/download/v0.4.0/qupath-extension-jpen-0.4.0-all.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-jpen/releases/download/v0.4.0/qupath-extension-jpen-0.4.0-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath Align extension",
-        "description": "QuPath extension to interactively align images",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-align",
-        "releases": [
-            {
-                "name": "v0.5.0",
-                "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.5.0/qupath-extension-align-0.5.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-align/releases/download/v0.5.0/qupath-extension-align-0.5.0-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            },
-            {
-                "name": "v0.4.0",
-                "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.4.0/qupath-extension-align-0.4.0.jar",
-                "version_range": {
-                    "min": "v0.5.0",
-                    "max": "v0.5.1"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath Bioimage Model Zoo extension",
-        "description": "A QuPath extension for working with the Bioimage Model Zoo (https://bioimage.io)",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-bioimageio",
-        "releases": [
-            {
-                "name": "v0.2.0-rc1",
-                "main_url": "https://github.com/qupath/qupath-extension-bioimageio/releases/download/v0.2.0-rc1/qupath-extension-bioimageio-0.2.0-rc1.jar",
-                "version_range": {
-                    "min": "v0.6.0-rc4"
-                }
-            },
-            {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-bioimageio/releases/download/v0.1.0/qupath-extension-bioimageio-0.1.0.jar",
-                "version_range": {
-                    "min": "v0.4.0",
-                    "max": "v0.5.1"
-                }
-            }
-        ]
-    },{
-        "name": "QuPath Stitching extension",
-        "description": "A QuPath extension to combine TIFF images",
-        "author": "QuPath",
-        "homepage": "https://github.com/qupath/qupath-extension-stitching",
-        "releases": [
-            {
-                "name": "v0.2.1",
-                "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.1/qupath-extension-stitching-0.2.1.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.1/qupath-extension-stitching-0.2.1-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.7.0"
-                }
-            },
-            {
-                "name": "v0.2.0",
-                "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.0/qupath-extension-stitching-0.2.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.0/qupath-extension-stitching-0.2.0-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0",
-                    "max": "v0.6.0"
-                }
-            },
-            {
-                "name": "v0.1.0",
-                "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0.jar",
-                "javadoc_urls": ["https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0-javadoc.jar"],
-                "version_range": {
-                    "min": "v0.6.0",
-                    "max": "v0.6.0"
-                }
-            }
-        ]
-    }]
+  "name": "QuPath catalog",
+  "description": "Extensions maintained by the QuPath team",
+  "extensions": [
+    {
+      "name": "QuPath InstanSeg extension",
+      "description": "Extension to run InstanSeg inference through QuPath",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-instanseg",
+      "starred": true,
+      "releases": [
+        {
+          "name": "v0.1.6",
+          "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.6/qupath-extension-instanseg-0.1.6.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.6/qupath-extension-instanseg-0.1.6-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.5",
+          "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.5/qupath-extension-instanseg-0.1.5.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.5/qupath-extension-instanseg-0.1.5-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.4",
+          "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.4/qupath-extension-instanseg-0.1.4.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.4/qupath-extension-instanseg-0.1.4-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.3",
+          "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.3/qupath-extension-instanseg-0.1.3.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.3/qupath-extension-instanseg-0.1.3-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.2",
+          "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.2/qupath-extension-instanseg-0.1.2.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.2/qupath-extension-instanseg-0.1.2-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        },
+        {
+          "name": "v0.1.1",
+          "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.1/qupath-extension-instanseg-0.1.1.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.1/qupath-extension-instanseg-0.1.1-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        },
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.0/qupath-extension-instanseg-0.1.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-instanseg/releases/download/v0.1.0/qupath-extension-instanseg-0.1.0-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath OMERO extension",
+      "description": "QuPath extension to work with images through OMERO's APIs",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-omero",
+      "starred": true,
+      "releases": [
+        {
+          "name": "v0.2.3",
+          "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.3/qupath-extension-omero-0.2.3.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.3/qupath-extension-omero-0.2.3-javadoc.jar"
+          ],
+          "optional_dependency_urls": [
+            "https://github.com/ome/openmicroscopy/releases/download/v5.6.17/OMERO.java-5.6.17-ice36.zip"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.2",
+          "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.2/qupath-extension-omero-0.2.2.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.2/qupath-extension-omero-0.2.2-javadoc.jar"
+          ],
+          "optional_dependency_urls": [
+            "https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.1",
+          "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.1/qupath-extension-omero-0.2.1.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.1/qupath-extension-omero-0.2.1-javadoc.jar"
+          ],
+          "optional_dependency_urls": [
+            "https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.2.0",
+          "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.0/qupath-extension-omero-0.2.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-omero/releases/download/v0.2.0/qupath-extension-omero-0.2.0-javadoc.jar"
+          ],
+          "optional_dependency_urls": [
+            "https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.2",
+          "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.2/qupath-extension-omero-0.1.2.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.2/qupath-extension-omero-0.1.2-javadoc.jar"
+          ],
+          "optional_dependency_urls": [
+            "https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.1",
+          "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.1/qupath-extension-omero-0.1.1.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.1/qupath-extension-omero-0.1.1-javadoc.jar"
+          ],
+          "optional_dependency_urls": [
+            "https://github.com/ome/openmicroscopy/releases/download/v5.6.16/OMERO.java-5.6.16-ice36.zip"
+          ],
+          "version_range": {
+            "min": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0/qupath-extension-omero-0.1.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-omero/releases/download/v0.1.0/qupath-extension-omero-0.1.0-javadoc.jar"
+          ],
+          "optional_dependency_urls": [
+            "https://github.com/ome/openmicroscopy/releases/download/v5.6.15/OMERO.java-5.6.15-ice36.zip"
+          ],
+          "version_range": {
+            "min": "v0.6.0-rc3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath Py4J extension",
+      "description": "A QuPath extension for linking up to Python via Py4J (https://www.py4j.org)",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-py4j",
+      "releases": [
+        {
+          "name": "v0.1.1",
+          "main_url": "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.1/qupath-extension-py4j-0.1.1-all.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.1/qupath-extension-py4j-0.1.1-javadoc.jar"
+          ],
+          "optional_dependency_urls": [],
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        },
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0/qupath-extension-py4j-0.1.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-py4j/releases/download/v0.1.0/qupath-extension-py4j-0.1.0-javadoc.jar"
+          ],
+          "optional_dependency_urls": [],
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath Snapshots extension",
+      "description": "A QuPath extension for generating snapshots & screenshots more easily.",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-snapshots",
+      "releases": [
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/qupath/qupath-extension-snapshots/releases/download/v0.1.0/qupath-extension-snapshots-0.1.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-snapshots/releases/download/v0.1.0/qupath-extension-snapshots-0.1.0-javadoc.jar"
+          ],
+          "optional_dependency_urls": [],
+          "version_range": {
+            "min": "v0.6.0-rc5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath StarDist extension",
+      "description": "QuPath extension to run StarDist nucleus detection",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-stardist",
+      "releases": [
+        {
+          "name": "v0.6.0",
+          "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.6.0/qupath-extension-stardist-0.6.0.jar",
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        },
+        {
+          "name": "v0.5.0",
+          "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.5.0/qupath-extension-stardist-0.5.0.jar",
+          "version_range": {
+            "min": "v0.5.0",
+            "max": "v0.5.1"
+          }
+        },
+        {
+          "name": "v0.4.0",
+          "main_url": "https://github.com/qupath/qupath-extension-stardist/releases/download/v0.4.0/qupath-extension-stardist-0.4.0.jar",
+          "version_range": {
+            "min": "v0.4.0",
+            "max": "v0.4.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath WSInfer extension",
+      "description": "QuPath extension to work with WSInfer - https://wsinfer.readthedocs.io/",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-wsinfer",
+      "releases": [
+        {
+          "name": "v0.4.0",
+          "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.4.0/qupath-extension-wsinfer-0.4.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.4.0/qupath-extension-wsinfer-0.4.0-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        },
+        {
+          "name": "v0.3.0",
+          "main_url": "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.3.0/qupath-extension-wsinfer-0.3.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-wsinfer/releases/download/v0.3.0/qupath-extension-wsinfer-0.3.0-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.5.0",
+            "max": "v0.5.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath JPen extension",
+      "description": "QuPath extension using JPen for graphics tablet input",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-jpen",
+      "releases": [
+        {
+          "name": "v0.4.0",
+          "main_url": "https://github.com/qupath/qupath-extension-jpen/releases/download/v0.4.0/qupath-extension-jpen-0.4.0-all.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-jpen/releases/download/v0.4.0/qupath-extension-jpen-0.4.0-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath Align extension",
+      "description": "QuPath extension to interactively align images",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-align",
+      "releases": [
+        {
+          "name": "v0.5.0",
+          "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.5.0/qupath-extension-align-0.5.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-align/releases/download/v0.5.0/qupath-extension-align-0.5.0-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        },
+        {
+          "name": "v0.4.0",
+          "main_url": "https://github.com/qupath/qupath-extension-align/releases/download/v0.4.0/qupath-extension-align-0.4.0.jar",
+          "version_range": {
+            "min": "v0.5.0",
+            "max": "v0.5.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath Bioimage Model Zoo extension",
+      "description": "A QuPath extension for working with the Bioimage Model Zoo (https://bioimage.io)",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-bioimageio",
+      "releases": [
+        {
+          "name": "v0.2.0-rc1",
+          "main_url": "https://github.com/qupath/qupath-extension-bioimageio/releases/download/v0.2.0-rc1/qupath-extension-bioimageio-0.2.0-rc1.jar",
+          "version_range": {
+            "min": "v0.6.0-rc4"
+          }
+        },
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/qupath/qupath-extension-bioimageio/releases/download/v0.1.0/qupath-extension-bioimageio-0.1.0.jar",
+          "version_range": {
+            "min": "v0.4.0",
+            "max": "v0.5.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath Stitching extension",
+      "description": "A QuPath extension to combine TIFF images",
+      "author": "QuPath",
+      "homepage": "https://github.com/qupath/qupath-extension-stitching",
+      "releases": [
+        {
+          "name": "v0.2.1",
+          "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.1/qupath-extension-stitching-0.2.1.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.1/qupath-extension-stitching-0.2.1-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        },
+        {
+          "name": "v0.2.0",
+          "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.0/qupath-extension-stitching-0.2.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.2.0/qupath-extension-stitching-0.2.0-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0",
+            "max": "v0.6.0"
+          }
+        },
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0.jar",
+          "javadoc_urls": [
+            "https://github.com/qupath/qupath-extension-stitching/releases/download/v0.1.0/qupath-extension-stitching-0.1.0-javadoc.jar"
+          ],
+          "version_range": {
+            "min": "v0.6.0",
+            "max": "v0.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "sightRNA Analysis extension",
+      "description": "Extension for FastRed signal detection and analysis with Stardist integration",
+      "author": "sightRNA Team",
+      "homepage": "https://github.com/kevin2022lee/qupath-extension-sightRNA-analysis-2.0.0",
+      "releases": [
+        {
+          "name": "v2.0.0",
+          "main_url": "https://github.com/kevin2022lee/qupath-extension-sightRNA-analysis-2.0.0/releases/download/qupath/sightRNA-2.0.1.jar",
+          "version_range": {
+            "min": "v0.7.0"
+          }
+        }
+      ]
+    }
+  ]
 }
