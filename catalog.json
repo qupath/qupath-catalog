@@ -1,5 +1,5 @@
 {
-    "name": "QuPath catalog",
+    "name": "Alan's catalog",
     "description": "Extensions maintained by the QuPath team",
     "extensions": [{
         "name": "QuPath InstanSeg extension",
